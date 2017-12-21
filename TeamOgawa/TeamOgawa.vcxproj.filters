@@ -165,6 +165,9 @@
     <ClCompile Include="lady.cpp">
       <Filter>LADY</Filter>
     </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>MODE\RESULT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -241,6 +244,9 @@
     </ClInclude>
     <ClInclude Include="lady.h">
       <Filter>LADY</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>MODE\RESULT</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
