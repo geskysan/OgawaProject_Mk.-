@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MAIN">
+      <UniqueIdentifier>{a189f0c6-c7cb-4caa-be3b-e3db0673b72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MANAGER">
+      <UniqueIdentifier>{c4219446-a8d5-434f-a503-59b5926ad7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DEBUGPROC">
+      <UniqueIdentifier>{76cc2481-db5b-4cba-9d01-55d7ee5fe45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RENDERER">
+      <UniqueIdentifier>{a85063ec-e511-4dd8-a9e8-f104f4a4863d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE">
+      <UniqueIdentifier>{f0ca7d01-bafe-4e24-b7e8-242498a48a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CAMERA">
+      <UniqueIdentifier>{16cca750-26ad-41fb-a05c-050713bd0b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE">
+      <UniqueIdentifier>{1a7631ed-8874-421f-8f45-b3a7b2ba4fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INPUT">
+      <UniqueIdentifier>{4d26d2d4-82ef-4f3b-b0c4-28fe7799ab03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE2D">
+      <UniqueIdentifier>{fe4661d4-c2ea-48cd-995b-6723f67b0ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIBRARY">
+      <UniqueIdentifier>{33060e36-6b2d-4cb5-a0c0-4e4e99f420a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENE3D">
+      <UniqueIdentifier>{3954bee0-6086-4bd2-bbf9-a5ee8bfec1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENEX">
+      <UniqueIdentifier>{c5496fc5-ccb1-4de7-b4f7-93402b52c55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCENEBILLBOARD">
+      <UniqueIdentifier>{19da6a05-fe9f-41ef-91b9-89557a424fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DANIM">
+      <UniqueIdentifier>{0bcd2427-f301-4188-a542-1ee46b01bd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DANIM">
+      <UniqueIdentifier>{9a1a0bdb-134e-4669-8e0b-f882663df397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE\TITLE">
+      <UniqueIdentifier>{652b3b46-39cd-4eff-8a01-cc6c91f00962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE\RESULT">
+      <UniqueIdentifier>{80df564e-656c-45fb-a0d6-cb16afacc6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE\GAMEMAIN">
+      <UniqueIdentifier>{9032f5b4-7817-472b-a09a-7958e9f41b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECT">
+      <UniqueIdentifier>{3635c518-abd2-459c-ae57-bc2e65328164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPHERE">
+      <UniqueIdentifier>{272f7abe-952d-4cc9-93ce-5e73022a0635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODE\INPUTCHECK">
+      <UniqueIdentifier>{1c6bf7db-a149-4cbf-89c3-f14d6f27d901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIGHT">
+      <UniqueIdentifier>{27aa8445-fd23-45df-883d-f259781d8ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOUND">
+      <UniqueIdentifier>{48c99e8b-8b52-4410-91eb-a352a599ea95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LURE">
+      <UniqueIdentifier>{16770271-13fb-47ac-a906-a3c826c0adee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LADY">
+      <UniqueIdentifier>{1fd50d12-cd6b-408a-b179-af24898cb68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LADY\BIJYO">
+      <UniqueIdentifier>{de387ecb-210f-4efd-b79f-6d6fa228bad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LADY\HUTU">
+      <UniqueIdentifier>{a77383f2-9d87-4458-9ae3-ee697d13a827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LADY\MEGAMI">
+      <UniqueIdentifier>{99160a92-4e58-4d0a-8927-b6dba4b144b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LADY\BUSU">
+      <UniqueIdentifier>{96826278-a66c-4468-8f70-6c0629a46352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>MANAGER</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>DEBUGPROC</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>RENDERER</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>CAMERA</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>INPUT</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2D.cpp">
+      <Filter>SCENE2D</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>LIBRARY</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>SCENE3D</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneX.cpp">
+      <Filter>SCENEX</Filter>
+    </ClCompile>
+    <ClCompile Include="scenebillboard.cpp">
+      <Filter>SCENEBILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="3Danim.cpp">
+      <Filter>3DANIM</Filter>
+    </ClCompile>
+    <ClCompile Include="2Danim.cpp">
+      <Filter>2DANIM</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemain.cpp">
+      <Filter>MODE\GAMEMAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="objectsphere.cpp">
+      <Filter>SPHERE</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="inputcheck.cpp">
+      <Filter>MODE\INPUTCHECK</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>LIGHT</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>MODE\TITLE</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>MODE\RESULT</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>SOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="lure.cpp">
+      <Filter>LURE</Filter>
+    </ClCompile>
+    <ClCompile Include="bijyo.cpp">
+      <Filter>LADY\BIJYO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>MANAGER</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>DEBUGPROC</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>RENDERER</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>CAMERA</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>INPUT</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2D.h">
+      <Filter>SCENE2D</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>LIBRARY</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>SCENE3D</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneX.h">
+      <Filter>SCENEX</Filter>
+    </ClInclude>
+    <ClInclude Include="scenebillboard.h">
+      <Filter>SCENEBILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="3Danim.h">
+      <Filter>3DANIM</Filter>
+    </ClInclude>
+    <ClInclude Include="2Danim.h">
+      <Filter>2DANIM</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemain.h">
+      <Filter>MODE\GAMEMAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="objectsphere.h">
+      <Filter>SPHERE</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="inputcheck.h">
+      <Filter>MODE\INPUTCHECK</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>LIGHT</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>MODE\TITLE</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>MODE\RESULT</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="lure.h">
+      <Filter>LURE</Filter>
+    </ClInclude>
+    <ClInclude Include="bijyo.h">
+      <Filter>LADY\BIJYO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
