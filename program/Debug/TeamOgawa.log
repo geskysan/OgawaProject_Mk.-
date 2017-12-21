@@ -1,0 +1,5 @@
+﻿  input.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\s-jobi610\desktop\teamogawa_sqau\teamogawa\input.cpp(640): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\s-jobi610\desktop\teamogawa_sqau\teamogawa\input.cpp(641): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+  TeamOgawa.vcxproj -> C:\Users\S-JoBi610\Desktop\TEAMOGAWA_SQAU\TeamOgawa\Debug\TeamOgawa.exe
