@@ -23,6 +23,7 @@ class CLight;
 class CCamera;
 class CInputJoypad;
 class CGamemain;
+class CTitle;
 class CInputCheck;
 //------------------------------------------------
 //マネージャークラス
@@ -68,6 +69,7 @@ private:
 	static CLight *m_pLight;
 	static CSound *m_pSound;
 	//モード
+	static CTitle *m_pTitle;
 	static CGamemain *m_pGameMain;
 #ifdef _DEBUG
 	static CDebugProc *m_pDebugProc;

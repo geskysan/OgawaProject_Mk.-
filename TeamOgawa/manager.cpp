@@ -10,6 +10,7 @@
 #include "camera.h"
 #include "inputcheck.h"
 #include "gamemain.h"
+#include "title.h"
 
 //------------------------------------------------
 //ƒ}ƒNƒ’è‹`
@@ -24,6 +25,7 @@ CCamera *CManager::m_pCamera = NULL;
 CInputCheck *CManager::m_pInputCheck = NULL;
 CInputKeyboard *CManager::m_pInputKeyboard = NULL;
 CInputJoypad *CManager::m_pInputJoypad = NULL;
+CTitle *CManager::m_pTitle = NULL;
 CGamemain *CManager::m_pGameMain = NULL;
 CLight *CManager::m_pLight = NULL;
 CSound *CManager::m_pSound = NULL;
@@ -76,7 +78,7 @@ HRESULT CManager::Init(HINSTANCE hInstance, HWND hWnd, bool bWindow)
 	m_pSound->Init(hWnd);
 	
 	MODE mode;
-	mode = MODE::MODE_GAMEMAIN;
+	mode = MODE::MODE_TITLE;
 
 #ifdef _DEBUG
 	m_pDebugProc = new CDebugProc;
@@ -157,6 +159,13 @@ void CManager::SetMode(MODE mode) {
 			m_pInputCheck = NULL;
 		}
 		break;
+	case MODE_TITLE:
+		if (m_pTitle)
+		{
+			m_pTitle->Uninit();
+			m_pTitle = NULL;
+		}
+		break;
 	case MODE_GAMEMAIN:
 		if (m_pGameMain)
 		{
@@ -172,10 +181,14 @@ void CManager::SetMode(MODE mode) {
 		m_pInputCheck = new CInputCheck();
 		m_pInputCheck->Init();
 		break;
+	case MODE_TITLE:
+		m_pTitle = new CTitle();
+		m_pTitle->Init();
+		break;
 	case MODE_GAMEMAIN:
 		m_pGameMain = new CGamemain();
 		m_pGameMain->Init();
-
+		break;
 	}
 
 	m_mode = mode;
