@@ -1,2 +1,6 @@
 #TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+<<<<<<< HEAD
 Debug|Win32|C:\Users\game223\Desktop\どうも\TeamOgawa\|
+=======
+Debug|Win32|C:\Users\S-JoBi605\Documents\OgawaProject_Mk.-\TeamOgawa\|
+>>>>>>> e30f0a8249cf50293f979ae0be105d352bcd67de

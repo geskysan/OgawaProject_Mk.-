@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 ﻿  ranking.cpp
   c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   lady.cpp
   コードを生成中...
   TeamOgawa.vcxproj -> C:\Users\game223\Desktop\どうも\TeamOgawa\Debug\TeamOgawa.exe
   TeamOgawa.vcxproj -> C:\Users\game223\Desktop\どうも\TeamOgawa\Debug\TeamOgawa.pdb (Full PDB)
+=======
+﻿  title.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  TeamOgawa.vcxproj -> C:\Users\S-JoBi605\Documents\OgawaProject_Mk.-\TeamOgawa\Debug\TeamOgawa.exe
+>>>>>>> e30f0a8249cf50293f979ae0be105d352bcd67de
