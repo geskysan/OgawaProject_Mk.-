@@ -154,6 +154,7 @@
     <ClCompile Include="gamemain.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="inputcheck.cpp" />
+    <ClCompile Include="lady.cpp" />
     <ClCompile Include="library.cpp" />
     <ClCompile Include="light.cpp" />
     <ClCompile Include="lure.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="gamemain.h" />
     <ClInclude Include="input.h" />
     <ClInclude Include="inputcheck.h" />
+    <ClInclude Include="lady.h" />
     <ClInclude Include="library.h" />
     <ClInclude Include="light.h" />
     <ClInclude Include="lure.h" />

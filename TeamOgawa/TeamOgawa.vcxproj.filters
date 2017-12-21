@@ -162,6 +162,9 @@
     <ClCompile Include="bijyo.cpp">
       <Filter>LADY\BIJYO</Filter>
     </ClCompile>
+    <ClCompile Include="lady.cpp">
+      <Filter>LADY</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -235,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="bijyo.h">
       <Filter>LADY\BIJYO</Filter>
+    </ClInclude>
+    <ClInclude Include="lady.h">
+      <Filter>LADY</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
